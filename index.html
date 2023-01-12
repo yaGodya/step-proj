@@ -17,7 +17,6 @@
 
 <body>
     <header class="header">
-
         <div class="header-section">
             <div class="wrapper header-wrapper">
                 <div class="header-section-logo">
@@ -25,12 +24,12 @@
                         <div class="header-logo"><img src="./img/header/header-logo.svg" alt="logo">
                             <img class="h-inside-logo" src="./img/header/h-inside-logo.svg" alt="h-inside-logo">
                         </div>
+
                         <div class="header-logo-text">
                             <span class="header-logo-first-words">the</span>
                             <span class="header-logo-second-words">ham</span>
                         </div>
                     </a>
-
                 </div>
 
                 <div class="header-nav">
@@ -42,11 +41,15 @@
                         <li class="header-nav-list-item"><a class="header-nav-list-item-a" href="#">Service</a></li>
                         <li class="header-nav-list-item"><a class="header-nav-list-item-a" href="#">Work</a></li>
                         <li class="header-nav-list-item"><a class="header-nav-list-item-a" href="#">Testimonial</a></li>
-                        <li class="header-nav-list-item header-search-icon"><a href="#"><img
-                                    src="./img/header/header-search-icon.svg" alt="search"></a></li>
+                        <li class="header-nav-list-item header-search-icon">
+                            <a href="#">
+                                <imgsrc=". /img/header/header-search-icon.svg" alt="search">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
+
             <div class="main-header-section">
                 <h2 class="header-title">
                     <span class="main-header-title-white-text">The Ham is</span>
@@ -58,12 +61,12 @@
                     <div class="explore-now button"><a href="#" class="button-a">explore now</a></div>
                     <div class="purchase-now button"><a href="#" class="button-a">purchase now</a></div>
                 </div>
-
             </div>
-
         </div>
-
     </header>
+
+
+
     <main>
         <div class="our-servise-section-card">
             <div class="tile-list">
@@ -72,29 +75,62 @@
                         class="tile-list-cards-img">
                     <p class="tile-list-cards-description">Different theme option</p>
                 </div>
+
                 <div class="tile-list-card">
                     <img src="./img/our section/tile-list-card-diamond.svg" alt="img-tile-cards"
                         class="tile-list-cards-img">
                     <p class="tile-list-cards-description">fully customizable</p>
                 </div>
+
                 <div class="tile-list-card">
                     <img src="./img/our section/tile-list-card-lamp.svg" alt="img-tile-cards"
                         class="tile-list-cards-img">
                     <p class="tile-list-cards-description">unlimited support</p>
                 </div>
+
                 <div class="tile-list-card">
                     <img src="./img/our section/tile-list-card-devises.svg" alt="img-tile-cards"
                         class="tile-list-cards-img">
                     <p class="tile-list-cards-description">responsive all device</p>
                 </div>
             </div>
+
+
             <div class="our-servise-section wrapper">
                 <h2 class="our-servise-title bem-block-h2">Our Services</h2>
                 <ul class="our-servise-list">
-                    <li class="our-servise-list-item">
+                    <li class="our-servise-list-item active" data-tab="#tab_1">
                         <h2 class="our-servise-list-item-description">Web Design</h2>
-                        <img src="#" alt="our-servise-image" class="our-servise-list-image">
-                        <p class="our-servise-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    </li>
+
+                    <li class="our-servise-list-item" data-tab="#tab_2">
+                        <h2 class="our-servise-list-item-description">Graphic Design</h2>
+                    </li>
+
+                    <li class="our-servise-list-item" data-tab="#tab_3">
+                        <h2 class="our-servise-list-item-description">Online Support</h2>
+                    </li>
+
+                    <li class="our-servise-list-item" data-tab="#tab_4">
+                        <h2 class="our-servise-list-item-description">App Design</h2>
+                    </li>
+
+                    <li class="our-servise-list-item" data-tab="#tab_5">
+                        <h2 class="our-servise-list-item-description">Online Marketing</h2>
+                    </li>
+
+                    <li class="our-servise-list-item" data-tab="#tab_6">
+                        <h2 class="our-servise-list-item-description">Seo Service</h2>
+                    </li>
+                </ul>
+
+                <ul class="our-servise-list-description">
+                    <li class="our-servise-list-description-item active" id="1">
+                        <img src="./img/our section/our-servises/web-design.jpg" alt="our-servise-image"
+                            class="our-servise-list-image">
+                        <p class="our-servise-list-paragrph"> Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit,
+                            sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
                             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
@@ -104,34 +140,86 @@
                             labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
                             qui officia deserunt mollit anim id est laborum.</p>
                     </li>
-                    <li class="our-servise-list-item">
-                        <h2 class="our-servise-list-item-description">Graphic Design</h2>
-                        <img src="#" alt="our-servise-image" class="our-servise-list-image">
-                        <p class="our-servise-text"></p>
+
+                    <li class="our-servise-list-description-item" id="2">
+                        <img src="./img/our section/our-servises/graphic-design.jpg" alt="our-servise-image"
+                            class="our-servise-list-image">
+                        <p class="our-servise-list-paragrph">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum.</p>
                     </li>
-                    <li class="our-servise-list-item">
-                        <h2 class="our-servise-list-item-description">Online Support</h2>
-                        <img src="#" alt="our-servise-image" class="our-servise-list-image">
-                        <p class="our-servise-text"></p>
+
+                    <li class="our-servise-list-description-item" id="3">
+                        <img src="./img/our section/our-servises/online-support.jpg" alt="our-servise-image"
+                            class="our-servise-list-image">
+                        <p class="our-servise-list-paragrph">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum.</p>
                     </li>
-                    <li class="our-servise-list-item">
-                        <h2 class="our-servise-list-item-description">App Design</h2>
-                        <img src="#" alt="our-servise-image" class="our-servise-list-image">
-                        <p class="our-servise-text"></p>
+
+                    <li class="our-servise-list-description-item" id="4">
+                        <img src="./img/our section/our-servises/online-marketing.jpg" alt="our-servise-image"
+                            class="our-servise-list-image">
+                        <p class="our-servise-list-paragrph">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum.</p>
                     </li>
-                    <li class="our-servise-list-item">
-                        <h2 class="our-servise-list-item-description">Online Marketing</h2>
-                        <img src="#" alt="our-servise-image" class="our-servise-list-image">
-                        <p class="our-servise-text"></p>
+
+                    <li class="our-servise-list-description-item" id="5">
+                        <img src="./img/our section/our-servises/app-design.jpg" alt="our-servise-image"
+                            class="our-servise-list-image">
+                        <p class="our-servise-list-paragrph">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum.</p>
                     </li>
-                    <li class="our-servise-list-item">
-                        <h2 class="our-servise-list-item-description">Seo Service</h2>
-                        <img src="#" alt="our-servise-image" class="our-servise-list-image">
-                        <p class="our-servise-text"></p>
+
+                    <li class="our-servise-list-description-item" id="6">
+                        <img src="./img/our section/our-servises/seo-service.jpg" alt="our-servise-image"
+                            class="our-servise-list-image">
+                        <p class="our-servise-list-paragrph">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem
+                            ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum.</p>
                     </li>
                 </ul>
             </div>
         </div>
+
+
         <div class="buy-and-instal">
             <div class="bai-block wrapper">
                 <h2 class="bai-title">Everything is ready. just buy and install now</h2>
@@ -140,7 +228,113 @@
                 <div class="bai-purchase button"><a href="#" class="button-a">purchase</a></div>
             </div>
         </div>
+
+
+
+        <div class="our-amazing-work wrapper">
+            <h2 class="oaw-title bem-block-h2">
+                Our Amazing Work
+            </h2>
+            <ul class="oaw-tabs">
+                <li class="oaw-tabs-item">All</li>
+                <li class="oaw-tabs-item">Graphic Design</li>
+                <li class="oaw-tabs-item">Web Design</li>
+                <li class="oaw-tabs-item">Landing Pages</li>
+                <li class="oaw-tabs-item">Wordpress</li>
+            </ul>
+            <div class="oaw-cards">
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+                <div class="oaw-cards-img"></div>
+            </div>
+
+            <button class="load-more">Load More</button>
+        </div>
+
+
+        <div class="breaking-news wrapper">
+            <h2 class="bn-title bem-block-h2">Breaking News</h2>
+            <ul class="bn-cards">
+                <li class="bn-cards-item">
+                    <div class="bn-cards-item-date"><span>12</span><span>Feb</span></div>
+                    <img src="./img/breaking-news/bn1.png" alt="breaking news pictures" class="bn-cards-item-img">
+                    <div class="bn-cards-item-post-title">
+                        <h2 class="bn-cards-item-title">Amazing Blog Post</h2>
+                        <p class="bn-cards-item-description">By admin | 2 comment</p>
+                    </div>
+
+                </li>
+                <li class="bn-cards-item">
+                    <div class="bn-cards-item-date"><span>12</span><span>Feb</span></div>
+                    <img src="./img/breaking-news/bn2.png" alt="breaking news pictures" class="bn-cards-item-img">
+                    <div class="bn-cards-item-post-title">
+                        <h2 class="bn-cards-item-title">Amazing Blog Post</h2>
+                        <p class="bn-cards-item-description">By admin | 2 comment</p>
+                    </div>
+                </li>
+                <li class="bn-cards-item">
+                    <div class="bn-cards-item-date"><span>12</span><span>Feb</span></div>
+                    <img src="./img/breaking-news/bn3.png" alt="breaking news pictures" class="bn-cards-item-img">
+                    <div class="bn-cards-item-post-title">
+                        <h2 class="bn-cards-item-title">Amazing Blog Post</h2>
+                        <p class="bn-cards-item-description">By admin | 2 comment</p>
+                    </div>
+                </li>
+                <li class="bn-cards-item">
+                    <div class="bn-cards-item-date"><span>12</span><span>Feb</span></div>
+                    <img src="./img/breaking-news/bn4.png" alt="breaking news pictures" class="bn-cards-item-img">
+                    <div class="bn-cards-item-post-title">
+                        <h2 class="bn-cards-item-title">Amazing Blog Post</h2>
+                        <p class="bn-cards-item-description">By admin | 2 comment</p>
+                    </div>
+                </li>
+                <li class="bn-cards-item">
+                    <div class="bn-cards-item-date"><span>12</span><span>Feb</span></div>
+                    <img src="./img/breaking-news/bn5.png" alt="breaking news pictures" class="bn-cards-item-img">
+                    <div class="bn-cards-item-post-title">
+                        <h2 class="bn-cards-item-title">Amazing Blog Post</h2>
+                        <p class="bn-cards-item-description">By admin | 2 comment</p>
+                    </div>
+                </li>
+                <li class="bn-cards-item">
+                    <div class="bn-cards-item-date"><span>12</span><span>Feb</span></div>
+                    <img src="./img/breaking-news/bn6.png" alt="breaking news pictures" class="bn-cards-item-img">
+                    <div class="bn-cards-item-post-title">
+                        <h2 class="bn-cards-item-title">Amazing Blog Post</h2>
+                        <p class="bn-cards-item-description">By admin | 2 comment</p>
+                    </div>
+                </li>
+                <li class="bn-cards-item">
+                    <div class="bn-cards-item-date"><span>12</span><span>Feb</span></div>
+                    <img src="./img/breaking-news/bn7.png" alt="breaking news pictures" class="bn-cards-item-img">
+                    <div class="bn-cards-item-post-title">
+                        <h2 class="bn-cards-item-title">Amazing Blog Post</h2>
+                        <p class="bn-cards-item-description">By admin | 2 comment</p>
+                    </div>
+                </li>
+                <li class="bn-cards-item">
+                    <div class="bn-cards-item-date"><span>12</span><span>Feb</span></div>
+                    <img src="./img/breaking-news/bn8.png" alt="breaking news pictures" class="bn-cards-item-img">
+                    <div class="bn-cards-item-post-title">
+                        <h2 class="bn-cards-item-title">Amazing Blog Post</h2>
+                        <p class="bn-cards-item-description">By admin | 2 comment</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </main>
+
+
+
     <footer class="footer">
         <p class="footer-description"> © Copyright 2015 <span>theHam</span> | All Rights Reserved</p>
     </footer>
